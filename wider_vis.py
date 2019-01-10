@@ -50,7 +50,7 @@ for imgdb in imgdbs:
 
     results = [DetectionResult(*args) for args in
                zip(imgdb['bbox'], imgdb['facemask'], imgdb['formal'], imgdb['hat'],
-                   imgdb['jeans'], imgdb['logo'], imgdb[0]['longhair'], imgdb['longpants'],
+                   imgdb['jeans'], imgdb['logo'], imgdb['longhair'], imgdb['longpants'],
                    imgdb['longsleeve'], imgdb['male'], imgdb['shorts'], imgdb['skirt'],
                    imgdb['stripe'], imgdb['sunglass'], imgdb['tshirt'])]
 
