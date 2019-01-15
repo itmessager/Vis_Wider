@@ -44,7 +44,13 @@ def vis_one_image(image_bgr, boxes, attrs):
     return image_disp
 
 
-imgdbs = load_many('/root/datasets/wider attribute', 'train')
+# Assuming dataset directory is /root/datasets/wider attribute/train
+imgdbs = load_many('/root/datasets/wider attribute', 'val')
+#   --train
+#   --val
+#   --test
+
+
 for imgdb in imgdbs:
     image_name = imgdb['img']
 
