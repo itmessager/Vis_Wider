@@ -45,7 +45,7 @@ def vis_one_image(image_bgr, boxes, attrs):
 
 
 # Assuming dataset directory is /root/datasets/wider attribute/train
-imgdbs = load_many('/root/datasets/wider attribute', 'val')
+imgdbs = load_many('/root/datasets/wider attribute', 'train')
 #   --train
 #   --val
 #   --test
