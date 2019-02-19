@@ -1,6 +1,10 @@
 ### Introduction:
 
-This is a script for visualizing wider attribute datasets
+This is a script for visualizing WIDER Attribute Dataset
+
+WIDER Attribute is a large-scale human attribute dataset. It contains 13789 images belonging to 30 scene categories, and 57524 human bounding boxes each annotated with 14 binary attributes.
+
+Download: [Images (Google Drive)],    [Annotations]
 
 ### Dependencies:
     Python 3.3+. 
