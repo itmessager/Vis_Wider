@@ -36,6 +36,7 @@ def draw_bounding_box_pil(box, draw, color):
     height = box[3]
     xmax = box[0] + width
     ymax = box[1] + height
+    #xmin, xmax, ymin, ymax = box
     (left, right, top, bottom) = (xmin, xmax,
                                   ymin, ymax)
     draw.line([(left, top), (left, bottom), (right, bottom),
